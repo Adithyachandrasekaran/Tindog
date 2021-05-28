@@ -1,0 +1,176 @@
+#title {
+  background-color: #ff4c68;
+  color:#fff;
+  padding-bottom: 100px;
+}
+
+body {
+  font-family:"Montserrat";
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.2rem;
+}
+.download-button {
+  margin:5% 3% 5% 0;
+}
+
+.title-image {
+  width:21%;
+  transform:rotate(25deg);
+  position: absolute;
+  top:150px;
+  right:310px;
+
+
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  size:3rem;
+  line-height:1.5;
+  padding-top: 40px;
+}
+
+.heading2{
+  line-height: 1.75;
+  width:55%;
+  margin:50px auto 15px;
+  font-weight: 900;
+
+}
+
+.heading3 {
+  font-family: "Montserrat";
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+
+#features {
+  text-align: center;
+  padding:130px 35px 95px;
+  background-color: #fff;
+  position: relative;
+
+}
+
+@media (max-width:1028px){
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width:65%;
+    transform: rotate(0);
+  }
+}
+
+
+p {
+  color:#8f8f8f;
+  width:75%;
+  margin:auto;
+  font-size: 1.15rem;
+}
+
+.fas {
+  color:#ef8172;
+  padding-bottom: 1.5rem;
+}
+
+.fas:hover {
+  color:#ff4c68;
+}
+
+.col-md-12 {
+  margin:4rem 0;
+}
+
+#testimonials {
+  background-color:#ef8172;
+  text-align: center;
+  font-family: "Montserrat";
+  color:#fff;
+  padding: 30px 45px;
+  font-weight: 500;
+}
+
+.testimonial-img {
+  border-radius:100%;
+  width:8.5%;
+  line-height: 1.5;
+  margin:40px 0;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-img {
+  width:15%;
+  margin:45px 25px 75px;
+  padding-top:30px;
+
+}
+
+#pricing {
+  padding:100px;
+  text-align: center;
+}
+.pricing-column {
+  padding:3% 5%;
+}
+
+#cta {
+  font-family: "Montserrat";
+  color:#fff;
+  background-color:#ff4c68;
+  text-align: center;
+  line-height: 1.75;
+  padding:10% 10% 7%;
+
+}
+
+.header-cta {
+  font-weight: bolder;
+  font-size: 50px;
+  margin:3px auto;
+  width:70%;
+  line-height: 1.5;
+}
+
+.download-button-bottom {
+  margin:3% .75%;
+}
+
+#footer {
+  text-align: center;
+  margin:10% auto 10%;
+}
+
+.logos {
+  margin:0 2%;
+  color:black;
+}
+
+.logos:hover {
+  color:#ff4c68;
+}
